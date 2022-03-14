@@ -1,0 +1,127 @@
+/* .logo{
+  height: 20px;
+  width: 15px;
+} */
+#rc{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+body {
+  font-size: 20px;
+  background-color: lightgreen;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:active{
+  color: red;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.container{
+    max-width: 985px;
+    background-color:lightblue;
+    border: solid 5px black;
+    margin: auto;
+    height: 70vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 33px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+.message{
+      background-color: darkgreen;
+      color:white;
+      width: 24%;
+      padding: 10px;
+      margin: 17px 2px;
+      border: 2px solid red;
+      border-radius: 20px;
+}
+.left{
+     float:left;
+     clear: both;
+}
+.right{
+    float:right;
+    clear: both;
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 92%;
+    border: 2px solid red;
+    border-radius: 2px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 6px;
+    height: 34px;
+
+}
+.btn:hover{
+  background-color: darkgreen;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    max-width: 90%;
+    background-color:lightblue;
+    border: solid 5px black;
+    margin: auto;
+    height: 75vh;
+    padding: 28px;
+    overflow-x:auto;
+    overflow-y: auto;
+    margin-bottom: 33px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    font-size: 15px;
+}
+}
