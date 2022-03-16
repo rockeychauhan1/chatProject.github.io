@@ -20,9 +20,9 @@ const append = (message,position)=>{
     };
 }
 
-const time=()=>{
-    a
-}
+// const time=()=>{
+//     a
+// }
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     const message = messageInput.value;
