@@ -1,5 +1,5 @@
 //Node Server handles socket io connection
-const io=require('socket.io')(5500,{
+const io=require('socket.io')(Number(process.env.PORT) || 5500,{
     cors:{
         origin:'*',
     }
