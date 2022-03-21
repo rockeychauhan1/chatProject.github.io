@@ -1,6 +1,6 @@
-var port = Number(process.env.PORT) || 5500;
-const socket = io('port');
-// http://process.env.PORT || localhost:5500
+// var port = Number(process.env.PORT) || 5500;
+const socket = io('http://localhost:5500');
+// http://localhost:5500
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
 const messageContainer =document.querySelector('.container');
