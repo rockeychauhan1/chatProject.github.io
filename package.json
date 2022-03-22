@@ -8,10 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "routes":{
-    "/":"/index.html",
-    "/features":"/features.html",
-    "/contact":"/contact.html",
-    "/about":"/about.html"
+    "/index.html":"/",
+    "/features.html":"/features",
+    "/contact.html":"/contact",
+    "/about.html":"/about"
   },
   "author": "rockey chauhan",
   "license": "ISC",
