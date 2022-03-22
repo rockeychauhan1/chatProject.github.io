@@ -4,7 +4,7 @@
   "description": "This is a node server for chat",
   "main": "index.js",
   "scripts": {
-    "start":"node client.js",
+    "start":"node js/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "routes":{
