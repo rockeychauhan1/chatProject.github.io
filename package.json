@@ -7,6 +7,12 @@
     "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "routes":{
+    "/":"/index.html",
+    "/features":"/features.html",
+    "/contact":"/contact.html",
+    "/about":"/about.html",
+  },
   "author": "rockey chauhan",
   "license": "ISC",
   "dependencies": {
