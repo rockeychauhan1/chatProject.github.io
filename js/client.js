@@ -1,9 +1,4 @@
 // var port = Number(process.env.PORT) || 5500;
-const io=require('socket.io')(process.env.PORT || 5500,{
-    cors:{
-        origin:'*',
-    }
-});
 const socket = io('http://localhost:5500');
 // http://localhost:5500
 const form = document.getElementById('send-container');
