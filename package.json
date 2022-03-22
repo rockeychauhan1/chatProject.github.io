@@ -11,7 +11,7 @@
     "/":"/index.html",
     "/features":"/features.html",
     "/contact":"/contact.html",
-    "/about":"/about.html",
+    "/about":"/about.html"
   },
   "author": "rockey chauhan",
   "license": "ISC",
